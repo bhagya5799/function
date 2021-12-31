@@ -1,0 +1,7 @@
+def nth_power(exponet):
+	def power_of(base):
+		return pow(base,exponet)
+	return power_of
+a=int(input('entr nbr'))
+square=nth_power(2)
+print(square(a))
